@@ -31,12 +31,6 @@ const songs = [
     cover: "assets/images/slavafunk.jpg"
   },
   {
-    title: "Jee Karda",
-    artist: "",
-    src: "assets/songs/Jee Karda.mp3",
-    cover: "assets/images/jee karda.jpg"
-  },
-  {
     title: "Matushka Ultrafunk",
     artist: "",
     src: "assets/songs/Matushka Ultrafunk.mp3",
@@ -49,28 +43,10 @@ const songs = [
     cover: "assets/images/funk de beleza.jpg"
   },
   {
-    title: "Funk Universo",
-    artist: "",
-    src: "assets/songs/FUNK UNIVERSO.mp3",
-    cover: "assets/images/funk universo.jpg"
-  },
-  {
-    title: "Unknown",
-    artist: "",
-    src: "assets/songs/Unknown!.mp3",
-    cover: "assets/images/unknown.jpg"
-  },
-  {
     title: "PASSO BEM SOLTO",
     artist: "",
     src: "assets/songs/PASSO BEM SOLTO.mp3",
     cover: "assets/images/passo bem solto.jpg"
-  },
-  {
-    title: "Pasoori",
-    artist: "",
-    src: "assets/songs/Pasoori.mp3",
-    cover: "assets/images/pasoori.jpg"
   }
 ];
 
