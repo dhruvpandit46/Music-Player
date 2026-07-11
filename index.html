@@ -2,49 +2,134 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>🎵 Music Player</title>
 
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <div class="player-container glass">
+    <!-- Animated Background -->
+    <div class="background-blur"></div>
 
-        <div class="album-art">
-            <img id="cover" alt="Album Cover">
-        </div>
+    <!-- Main Player -->
 
-        <div class="song-info">
-            <h2 id="title">Loading...</h2>
-            <p id="artist"></p>
-        </div>
+    <main class="player">
+
+        <!-- Album -->
+
+        <section class="album-section">
+
+            <div class="album-wrapper">
+
+                <img
+                    id="cover"
+                    src=""
+                    alt="Album Cover">
+
+            </div>
+
+        </section>
+
+        <!-- Song Details -->
+
+        <section class="song-details">
+
+            <h1 id="title">
+
+                Loading...
+
+            </h1>
+
+            <p id="artist">
+
+                Artist
+
+            </p>
+
+        </section>
+
+        <!-- Progress -->
+
+        <section class="progress-section">
+
+            <div class="time-row">
+
+                <span id="currentTime">
+
+                    0:00
+
+                </span>
+
+                <span id="duration">
+
+                    0:00
+
+                </span>
+
+            </div>
+
+            <input
+
+                id="seekbar"
+
+                type="range"
+
+                min="0"
+
+                max="100"
+
+                value="0"
+
+            >
+
+        </section>
+
+        <!-- Controls -->
+
+        <section class="controls">
+
+            <button id="prev" class="control-btn">
+
+                <i class="fa-solid fa-backward-step"></i>
+
+            </button>
+
+            <button id="play" class="play-btn">
+
+                <i class="fa-solid fa-play"></i>
+
+            </button>
+
+            <button id="next" class="control-btn">
+
+                <i class="fa-solid fa-forward-step"></i>
+
+            </button>
+
+        </section>
+
+        <!-- Hidden Audio -->
 
         <audio id="audio"></audio>
 
-        <div class="controls">
-            <button id="prev">⏮️</button>
-            <button id="play">▶️</button>
-            <button id="next">⏭️</button>
-        </div>
-
-        <div class="progress-container">
-            <span id="currentTime">0:00</span>
-
-            <input
-                type="range"
-                id="seekbar"
-                value="0"
-                min="0"
-                max="100"
-            >
-
-            <span id="duration">0:00</span>
-        </div>
-
-    </div>
+    </main>
 
     <script src="script.js"></script>
 
