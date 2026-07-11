@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🎵 Music Player</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎵 Music Player</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="player-container glass">
-    <div class="album-art">
-      <img id="cover" src="assets/images/default.jpg" alt="Album Cover" />
+
+    <div class="player-container glass">
+
+        <div class="album-art">
+            <img id="cover" alt="Album Cover">
+        </div>
+
+        <div class="song-info">
+            <h2 id="title">Loading...</h2>
+            <p id="artist"></p>
+        </div>
+
+        <audio id="audio"></audio>
+
+        <div class="controls">
+            <button id="prev">⏮️</button>
+            <button id="play">▶️</button>
+            <button id="next">⏭️</button>
+        </div>
+
+        <div class="progress-container">
+            <span id="currentTime">0:00</span>
+
+            <input
+                type="range"
+                id="seekbar"
+                value="0"
+                min="0"
+                max="100"
+            >
+
+            <span id="duration">0:00</span>
+        </div>
+
     </div>
 
-    <div class="song-info">
-      <h2 id="title">Song Title</h2>
-      <p id="artist">Artist Name</p>
-    </div>
+    <script src="script.js"></script>
 
-    <audio id="audio" src="assets/songs/song1.mp3"></audio>
-
-    <div class="controls">
-      <button id="prev"><span>⏮️</span></button>
-      <button id="play"><span>▶️</span></button>
-      <button id="next"><span>⏭️</span></button>
-    </div>
-
-    <div class="progress-container">
-      <span id="currentTime">0:00</span>
-      <input type="range" id="seekbar" value="0" />
-      <span id="duration">0:00</span>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
 </body>
+
 </html>
