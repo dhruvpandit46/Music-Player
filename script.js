@@ -24,7 +24,7 @@ const songs = [
     src: "assets/songs/Hanumankind Big Dawgs.mp3",
     cover: "assets/images/big dawgs.jpg"
   },
-{
+  {
     title: "Slava Funk!",
     artist: "",
     src: "assets/songs/SLAVA FUNK!.mp3",
@@ -124,3 +124,35 @@ audio.addEventListener("ended", () => {
 
 // Initial load
 loadSong(songIndex);
+
+
+
+// ===============================
+// SERVICE WORKER REGISTER
+// ===============================
+
+if ("serviceWorker" in navigator) {
+
+    window.addEventListener("load", async () => {
+
+        try {
+
+            const registration = await navigator.serviceWorker.register("./sw.js");
+
+            console.log("✅ Service Worker Registered");
+
+            console.log(registration);
+
+        }
+
+        catch (error) {
+
+            console.error("❌ Registration Failed");
+
+            console.error(error);
+
+        }
+
+    });
+
+}
