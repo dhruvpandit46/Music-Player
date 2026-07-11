@@ -30,3 +30,38 @@ Designed as a lightweight Progressive Web App (PWA) that can continue working ev
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
 
 </p>
+
+
+## 🚀 Live Demo
+
+
+
+https://dhruvpandit46.github.io/Music-Player/
+
+
+## ✨ Features
+
+✅ Beautiful Glassmorphism UI
+
+✅ Music Playback
+
+✅ Previous / Next Controls
+
+✅ Play / Pause
+
+✅ Seek Bar
+
+✅ Album Artwork
+
+✅ Responsive Design
+
+✅ Offline Support
+
+✅ Service Worker
+
+✅ Fast Loading
+
+✅ Lightweight
+
+
+
