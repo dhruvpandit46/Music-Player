@@ -10,29 +10,29 @@ const FILES_TO_CACHE = [
 
     "./script.js",
 
-    "./assets/images/sapphire.png",
+    "./assets/images/conga conga.jpeg",
 
-    "./assets/images/big dawgs.jpg",
+    "./assets/images/montagem vois.jpeg",
 
-    "./assets/images/slavafunk.jpg",
+    "./assets/images/tacata.jpeg",
 
-    "./assets/images/matushka.jpg",
+    "./assets/images/ur final message.jpg",
 
-    "./assets/images/funk de beleza.jpg",
+    "./assets/images/love nawantiti.jpeg",
 
-    "./assets/images/passo bem solto.jpg",
+    "./assets/images/on the floor.jpeg",
 
-    "./assets/songs/Sapphire.mp3",
+    "./assets/songs/Conga Conga.mp3",
 
-    "./assets/songs/Hanumankind Big Dawgs.mp3",
+    "./assets/songs/MONTAGEM VOIS.mp3",
 
-    "./assets/songs/SLAVA FUNK!.mp3",
+    "./assets/songs/Tacata.mp3",
 
-    "./assets/songs/Matushka Ultrafunk.mp3",
+    "./assets/songs/UR FINAL MESSAGE.mp3",
 
-    "./assets/songs/FUNK DE BELEZA.mp3",
+    "./assets/songs/love nwantiti (slowed) - (64 Kbps).mp3",
 
-    "./assets/songs/PASSO BEM SOLTO.mp3"
+    "./assets/songs/on the floor.mp3"
 
 ];
 
