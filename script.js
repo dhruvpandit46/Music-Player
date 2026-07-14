@@ -35,73 +35,73 @@ const songs = [
 
 {
 
-title:"Sapphire",
+title:"Conga Conga",
 
-artist:"Ed Sheeran & Arijit Singh",
+artist:"Gloria Estefan",
 
-src:"assets/songs/Sapphire.mp3",
+src:"assets/songs/Conga Conga.mp3",
 
-cover:"assets/images/sapphire.png"
-
-},
-
-{
-
-title:"Hanumankind Big Dawgs",
-
-artist:"Hanumankind",
-
-src:"assets/songs/Hanumankind Big Dawgs.mp3",
-
-cover:"assets/images/big dawgs.jpg"
+cover:"assets/images/conga conga.jpeg"
 
 },
 
 {
 
-title:"SLAVA FUNK!",
+title:"MONTAGEM VOIS",
 
-artist:"",
+artist:"Fatit",
 
-src:"assets/songs/SLAVA FUNK!.mp3",
+src:"assets/songs/MONTAGEM VOIS.mp3",
 
-cover:"assets/images/slavafunk.jpg"
-
-},
-
-{
-
-title:"Matushka Ultrafunk",
-
-artist:"",
-
-src:"assets/songs/Matushka Ultrafunk.mp3",
-
-cover:"assets/images/matushka.jpg"
+cover:"assets/images/montagem vois.jpeg"
 
 },
 
 {
 
-title:"FUNK DE BELEZA",
+title:"Tacata",
 
-artist:"",
+artist:"Tacabro",
 
-src:"assets/songs/FUNK DE BELEZA.mp3",
+src:"assets/songs/Tacabro.mp3",
 
-cover:"assets/images/funk de beleza.jpg"
+cover:"assets/images/tacata.jpeg"
 
 },
 
 {
 
-title:"PASSO BEM SOLTO",
+title:"UR FINAL MESSAGE",
 
-artist:"",
+artist:"Slick Killa",
 
-src:"assets/songs/PASSO BEM SOLTO.mp3",
+src:"assets/songs/UR FINAL MESSAGE.mp3",
 
-cover:"assets/images/passo bem solto.jpg"
+cover:"assets/images/ur final message.jpg"
+
+},
+
+{
+
+title:"Love Nwantiti",
+
+artist:"CKay",
+
+src:"assets/songs/love nwantiti (slowed) - (64 Kbps).mp3",
+
+cover:"assets/images/love nawantiti.jpeg"
+
+},
+
+{
+
+title:"On The Floor",
+
+artist:"Jennifer Lopez",
+
+src:"assets/songs/on the floor.mp3",
+
+cover:"assets/images/on the floor.jpeg"
 
 }
 
